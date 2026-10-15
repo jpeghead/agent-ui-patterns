@@ -1,0 +1,11 @@
+{
+  "name": "agent-ui-patterns",
+  "version": "0.1.0",
+  "description": "Working React prototypes for agent interfaces: progress, scoped permissions, failure recovery, graded confidence.",
+  "main": "src/agent-patterns.tsx",
+  "license": "MIT",
+  "author": "Josh Whitehead <josh@josh.design>",
+  "peerDependencies": { "react": ">=19"  },
+  "repository": { "type": "git", "url": "https://github.com/jpeghead/agent-ui-patterns" },
+  "homepage": "https://josh.design/lab/agents"
+}
