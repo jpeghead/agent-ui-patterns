@@ -1,11 +1,29 @@
 {
   "name": "agent-ui-patterns",
-  "version": "0.1.0",
-  "description": "Working React prototypes for agent interfaces: progress, scoped permissions, failure recovery, graded confidence.",
-  "main": "src/agent-patterns.tsx",
+  "version": "0.2.0",
+  "description": "Five working React prototypes for the parts of an agent interface that decide whether people trust it, with the reasoning, the copy, and a review checklist.",
+  "type": "module",
+  "main": "src/index.ts",
   "license": "MIT",
   "author": "Josh Whitehead <josh@josh.design>",
-  "peerDependencies": { "react": ">=19"  },
   "repository": { "type": "git", "url": "https://github.com/jpeghead/agent-ui-patterns" },
-  "homepage": "https://josh.design/lab/agents"
+  "homepage": "https://github.com/jpeghead/agent-ui-patterns#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": { "react": ">=19", "react-dom": ">=19" },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.4.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.3.0"
+  }
 }
